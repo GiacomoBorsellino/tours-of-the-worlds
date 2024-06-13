@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import cities from "./cities";
-import Style from "./Style.module.css";
+import Card from "./components/Card/Card";
+// import Style from "./Style.module.css";
 
 const App = () => {
   const [tours, setTours] = useState([]);
@@ -14,26 +15,22 @@ const App = () => {
   }, []);
 
   return (
-    <React.Fragment>
+    <>
       <h1>Tours of the World</h1>
-
-      <ul>
-        {tours.map((tour) => {
-          const { id, name, image, info, price } = tour;
-          console.log(tour);
-          return (
-            <li key={id}>
-              <img src={image} alt={name} />
-              <div>
-                <h4>Journey: {name}</h4>
-                <h3 className={Style["price"]}>Price: {price}</h3>
-                <h3>Info: {info}</h3>
-              </div>
-            </li>
-          );
-        })}
-      </ul>
-    </React.Fragment>
+      <section className="flex flex-col flex-wrap justify-center items-center">
+        {
+          tours.map((tour) => (
+            <Card
+              key={tour.id}
+              title={tour.title}
+              img={tour.img}
+              description={tour.info}
+              isVisited={tour.isVisited}></Card>
+          ))
+          // const { id, name, image, info, price } = tour;
+        }
+      </section>
+    </>
   );
 };
 
