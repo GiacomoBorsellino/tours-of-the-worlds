@@ -17,7 +17,7 @@ const cities = [
   },
   {
     id: "recJLWcHScdUtI3ny",
-    title: "Best of Salzburg & Vienna in 8 Days Tour",
+    title: "Best of Salzburg in 8 Days Tour",
     info: "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide will bring this region's rich history and culture to life in festive Munich, Baroque Salzburg, sparkling Lake Hallstatt, monastic Melk, the blue Danube, and royal Vienna — with cozy villages and alpine vistas all along the way. Join us for the Best of Munich, Salzburg & Vienna in 8 Days!",
     img: "https://www.lunediacolazione.it/wp-content/uploads/2022/10/visitare-vienna-a-partire-dalla-colazione-4-scaled.jpg",
     price: "2,695",
