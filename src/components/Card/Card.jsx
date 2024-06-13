@@ -9,7 +9,7 @@ function Card({ title, img, description, isVisited }) {
         <img
           alt="img"
           src={img}
-          className=" w-full h-40 object-cover rounded-t-md"
+          className="h-40 w-4/5 m-2 object-cover rounded-t-md"
         />
         <div className="p-2">
           <h2 className="text-2xl">{title}</h2>
