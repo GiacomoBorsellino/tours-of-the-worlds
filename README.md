@@ -32,6 +32,8 @@
 * CSS
 * JavaScript
 * React
+* Vite
+* Tailwind Css
 * Npm
 
 ## Utilizzo
